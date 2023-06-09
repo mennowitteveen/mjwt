@@ -21,11 +21,15 @@ Im now gonna do a short code example:
     2
 
 ``` python
-import numpy as np
-from mjwt.utils import legimplot
-legimplot(np.random.randn(5,5), show=True)
+# import numpy as np
+# from mjwt.utils import legimplot
+# legimplot(np.random.randn(5,5), show=True)
 ```
 
-![](index_files/figure-commonmark/cell-3-output-1.png)
-
 Bang, an implot above.
+
+``` python
+print('something')
+```
+
+    something
