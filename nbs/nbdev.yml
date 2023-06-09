@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "mjwt"
+  site-url: "https://mennowitteveen.github.io/mjwt"
+  description: "Python package with coding tools, code snippets and notes from Menno Witteveen"
+  repo-branch: main
+  repo-url: "https://github.com/mennowitteveen/mjwt"
