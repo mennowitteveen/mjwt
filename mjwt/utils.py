@@ -8,13 +8,13 @@ import pickle
 import inspect
 from sys import getsizeof
 from collections import defaultdict
-from IPython.display import Audio, display, Javascript
-from IPython import get_ipython
-import matplotlib.pyplot as plt
-import numpy as np
-import scipy as sp
-import pandas as pd
-import matplotlib.colors as mcolors
+# from IPython.display import Audio, display, Javascript
+# from IPython import get_ipython
+# import matplotlib.pyplot as plt
+# import numpy as np
+# import scipy as sp
+# import pandas as pd
+# import matplotlib.colors as mcolors
 
 def legimplot(arg):
     print(arg)
