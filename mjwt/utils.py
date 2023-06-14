@@ -17,6 +17,7 @@ from collections import defaultdict
 # import matplotlib.colors as mcolors
 
 def legimplot(arg):
+    print('legiplotxtras')
     print('a string with a bunch of stuff')
     print(arg)
     return 'fun'
