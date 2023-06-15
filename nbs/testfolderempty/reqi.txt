@@ -1,0 +1,5 @@
+nbdev
+numpy
+mjwt
+jupyter_contrib_nbextensions
+twine
