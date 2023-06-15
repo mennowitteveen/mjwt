@@ -4,7 +4,7 @@
 __all__ = ['rbg_cdict', 'printfun', 'Tree', 'fullvars', 'sizegb', 'beep', 'Timer', 'find_varname', 'legimplot', 'implot',
            'redo_all_above', 'do_all_above', 'Struct', 'psrc', 'jobinfo', 'corr', 'pcorr', 'ResultsStorage']
 
-# %% ../nbs/00_utils.ipynb 7
+# %% ../nbs/00_utils.ipynb 8
 # %%writefile ../mjwt/utils.py
 
 
@@ -303,7 +303,5 @@ class ResultsStorage():
         """
         self.write_string(report_string, fn='completed.txt')
 
-# import nbdev; nbdev.nbdev_export()
-#|hide_line
 #durr
 True
