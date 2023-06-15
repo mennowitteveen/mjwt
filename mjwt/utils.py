@@ -12,7 +12,6 @@ __all__ = ['rbg_cdict', 'printfun', 'Tree', 'fullvars', 'sizegb', 'beep', 'Timer
 # this requires writing fancy __init__.py files and having subdirs, _stuff.py files and more..
 # I put this here, because I had a hunch it would generate desired python behavior.
 # __all__ = ['Tree','fullvars','sizegb','beep','Timer','implot', 'redo_all_above', 'do_all_above', 'Struct'] 
-#something
 
 import time
 import os
