@@ -7,3 +7,6 @@ website:
       - section: folderwithnb
         contents:
           - folderwithnb/ipynb_snippets.ipynb
+      - section: folderwithnbrawcell
+        contents:
+          - folderwithnbrawcell/ipynb_snippets.ipynb
