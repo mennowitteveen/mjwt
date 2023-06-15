@@ -4,6 +4,7 @@
 
 .cell > .sourceCode {
   margin-bottom: 0;
+  font-size: 1.0em;
 }
 
 .cell-output > pre {
