@@ -4,9 +4,13 @@ website:
       - index.ipynb
       - 00_utils.ipynb
       - ipynb_snippets.ipynb
-      - section: folderwithnb
+      - section: archiv
         contents:
-          - folderwithnb/ipynb_snippets.ipynb
-      - section: folderwithnbrawcell
+          - section: folderwithnb
+            contents:
+              - archiv/folderwithnb/ipynb_snippets.ipynb
+      - section: archiv
         contents:
-          - folderwithnbrawcell/ipynb_snippets.ipynb
+          - section: folderwithnbrawcell
+            contents:
+              - archiv/folderwithnbrawcell/ipynb_snippets.ipynb
