@@ -2,7 +2,8 @@
 
 # %% auto 0
 __all__ = ['rbg_cdict', 'printfun', 'Tree', 'fullvars', 'sizegb', 'beep', 'Timer', 'find_varname', 'legimplot', 'implot',
-           'redo_all_above', 'do_all_above', 'Struct', 'psrc', 'jobinfo', 'corr', 'pcorr', 'ResultsStorage']
+           'redo_all_above', 'do_all_above', 'Struct', 'psrc', 'jobinfo', 'corr', 'pcorr', 'ResultsStorage',
+           'TestClass']
 
 # %% ../nbs/00_utils.ipynb 4
 # %%writefile ../mjwt/utils.py
@@ -11,6 +12,7 @@ __all__ = ['rbg_cdict', 'printfun', 'Tree', 'fullvars', 'sizegb', 'beep', 'Timer
 # this requires writing fancy __init__.py files and having subdirs, _stuff.py files and more..
 # I put this here, because I had a hunch it would generate desired python behavior.
 # __all__ = ['Tree','fullvars','sizegb','beep','Timer','implot', 'redo_all_above', 'do_all_above', 'Struct'] 
+#something
 
 import time
 import os
@@ -301,4 +303,6 @@ class ResultsStorage():
         """
         self.write_string(report_string, fn='completed.txt')
 
-# import nbdev; nbdev.nbdev_export()        
+class TestClass():
+    pass
+    
