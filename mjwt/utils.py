@@ -4,7 +4,7 @@
 __all__ = ['rbg_cdict', 'printfun', 'Tree', 'fullvars', 'sizegb', 'beep', 'Timer', 'find_varname', 'legimplot', 'implot',
            'redo_all_above', 'do_all_above', 'Struct', 'psrc', 'jobinfo', 'corr', 'pcorr', 'ResultsStorage']
 
-# %% ../nbs/00_utils.ipynb 9
+# %% ../nbs/00_utils.ipynb 4
 # %%writefile ../mjwt/utils.py
 # Something python bash python something (test)dur ergerg -- new nb overwrite (oke now another overwrite in nb mjwt)
 # Doing something to make all the import suggestions in the code etc work nicely will come later
@@ -26,6 +26,7 @@ import numpy as np
 import scipy as sp
 import pandas as pd
 import matplotlib.colors as mcolors
+print('something-moar-moar')
 
 rbg_cdict = {'red':   ((0.0, 0.0, 0.0),
                    (0.5, 0.0, 0.0),
@@ -35,8 +36,10 @@ rbg_cdict = {'red':   ((0.0, 0.0, 0.0),
          'green': ((0.0, 0.0, 1.0),
                    (0.5, 0.0, 0.0),
                    (1.0, 0.0, 0.0))}
-plt.register_cmap('rbg', mcolors.LinearSegmentedColormap('rbg', rbg_cdict, 100))
-
+try:
+    plt.register_cmap('rbg', mcolors.LinearSegmentedColormap('rbg', rbg_cdict, 100))
+except:
+    True
 
 def printfun(arg='ergergreg'):
     print(arg+'  - something')
@@ -298,4 +301,4 @@ class ResultsStorage():
         """
         self.write_string(report_string, fn='completed.txt')
 
-        
+# import nbdev; nbdev.nbdev_export()        
