@@ -2,17 +2,17 @@
 
 # %% auto 0
 __all__ = ['rbg_cdict', 'printfun', 'Tree', 'fullvars', 'sizegb', 'beep', 'Timer', 'find_varname', 'legimplot', 'implot',
-           'redo_all_above', 'do_all_above', 'Struct', 'psrc', 'jobinfo', 'corr', 'pcorr', 'ResultsStorage',
-           'TestClass']
+           'redo_all_above', 'do_all_above', 'Struct', 'psrc', 'jobinfo', 'corr', 'pcorr', 'ResultsStorage']
 
-# %% ../nbs/00_utils.ipynb 4
+# %% ../nbs/00_utils.ipynb 7
 # %%writefile ../mjwt/utils.py
+
+
 # Something python bash python something (test)dur ergerg -- new nb overwrite (oke now another overwrite in nb mjwt)
 # Doing something to make all the import suggestions in the code etc work nicely will come later
 # this requires writing fancy __init__.py files and having subdirs, _stuff.py files and more..
 # I put this here, because I had a hunch it would generate desired python behavior.
 # __all__ = ['Tree','fullvars','sizegb','beep','Timer','implot', 'redo_all_above', 'do_all_above', 'Struct'] 
-#something
 
 import time
 import os
@@ -28,7 +28,7 @@ import numpy as np
 import scipy as sp
 import pandas as pd
 import matplotlib.colors as mcolors
-print('something-moar-moar')
+print('something-moar-moar-burrrxx')
 
 rbg_cdict = {'red':   ((0.0, 0.0, 0.0),
                    (0.5, 0.0, 0.0),
@@ -303,6 +303,7 @@ class ResultsStorage():
         """
         self.write_string(report_string, fn='completed.txt')
 
-class TestClass():
-    pass
-    
+# import nbdev; nbdev.nbdev_export()
+#|hide_line
+#durr
+True
