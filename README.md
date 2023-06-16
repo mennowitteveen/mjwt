@@ -33,6 +33,6 @@ implot(np.random.randn(5,5), show=True)
 
 Bang, an implot above. There are other function inside of mjwt.utils and
 there are notebooks with snippets in ./nbs/ which are mirrored on
-[mennowitteveen.github.io/mjwt/](mennowitteveen.github.io/mjwt/).
+[mennowitteveen.github.io/mjwt/](https://mennowitteveen.github.io/mjwt/).
 
 Have a great day!
