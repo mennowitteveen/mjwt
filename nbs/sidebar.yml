@@ -3,4 +3,5 @@ website:
     contents:
       - index.ipynb
       - 00_utils.ipynb
+      - cmd_snippets.ipynb
       - ipynb_snippets.ipynb
