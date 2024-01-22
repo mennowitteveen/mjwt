@@ -32,4 +32,5 @@ d = { 'settings': { 'branch': 'main',
                             'mjwt.utils.printfun': ('utils.html#printfun', 'mjwt/utils.py'),
                             'mjwt.utils.psrc': ('utils.html#psrc', 'mjwt/utils.py'),
                             'mjwt.utils.redo_all_above': ('utils.html#redo_all_above', 'mjwt/utils.py'),
-                            'mjwt.utils.sizegb': ('utils.html#sizegb', 'mjwt/utils.py')}}}
+                            'mjwt.utils.sizegb': ('utils.html#sizegb', 'mjwt/utils.py'),
+                            'mjwt.utils.suppress_warnings': ('utils.html#suppress_warnings', 'mjwt/utils.py')}}}

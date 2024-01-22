@@ -1,5 +1,7 @@
 _docs/
+conda/
 _proc/
+*.mp3
 
 *.bak
 .gitattributes
